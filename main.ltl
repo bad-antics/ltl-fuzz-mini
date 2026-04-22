@@ -1,0 +1,15 @@
+// ltl-fuzz-mini/main.ltl
+//
+// Coverage-guided fuzz harness for pure functions.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-fuzz-mini v0.1.0")
+    io::println("Coverage-guided fuzz harness for pure functions.")
+    0
+}
